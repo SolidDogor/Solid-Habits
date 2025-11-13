@@ -1,10 +1,6 @@
-import './HabitsSection.css';
-import Habit from './Habit.jsx';
+import "./HabitsSection.css";
+import Habit from "./Habit.jsx";
 
 export default function HabitsSection() {
-    return (
-        <div>
-            Seccion de habitos
-        </div>
-    );
+  return <div>Seccion de habitos</div>;
 }
