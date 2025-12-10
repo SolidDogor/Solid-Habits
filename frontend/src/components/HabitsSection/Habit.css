@@ -1,0 +1,32 @@
+.habit-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goals-settings {
+  display: flex;
+  align-items: center;
+}
+
+.goal {
+  display: flex;
+  align-items: center;
+}
+
+.goal-quantity {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.goal-quantity button {
+  height: 40px;
+}
+
+.goal-quantity button img {
+  height: 20px;
+}
+
+.habit-settings {
+  height: 20px;
+}

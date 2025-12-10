@@ -9,4 +9,18 @@
 .header-title {
   font-size: 40px;
   font-family: "Inter";
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 38%,
+    rgba(153, 153, 153, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.header-settings {
+  display: flex;
+  gap: 20px;
 }

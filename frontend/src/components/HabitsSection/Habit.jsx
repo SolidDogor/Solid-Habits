@@ -11,13 +11,13 @@ export default function Habit({ habitName, habitDescription }) {
       </div>
       <div className="goals-settings">
         <div className="goal">
-          <div className="current-quantity"></div>
+          <div className="current-quantity">1/8</div>
           <div className="goal-quantity">
             <button>
-              <img littlePlusImage />
+              <img src={littlePlusImage} />
             </button>
             <button>
-              <img littlePlusImage />
+              <img src={littlePlusImage} />
             </button>
           </div>
         </div>
